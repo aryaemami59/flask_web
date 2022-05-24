@@ -1,0 +1,88 @@
+/* * {
+	margin: 0;
+} */
+html {
+  width: 100%;
+  height: 100%;
+}
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #8ec5fc;
+  background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 5%;
+}
+div.big-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  /* margin-right: 0; */
+  /* padding: 2%; */
+}
+/* div.small-container {
+	width: auto;
+	display: inline-block;
+} */
+ul.list {
+  width: 80%;
+  padding: 1%;
+}
+ul.list > li {
+  background-color: #8ec5fc;
+}
+a.delete-button {
+  float: right;
+}
+input.edit-button {
+  float: right;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+  -webkit-appearance: textfield;
+  appearance: textfield;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input.item-number-input {
+  /* display: inline-block;
+	width: 75%; */
+  /* box-sizing: content-box; */
+}
+/* button.generate-button {
+	width: 25%;
+} */
+/* .column-2 {
+  grid-column: span 2;
+  grid-row: 1;
+} */
+.column-5 {
+  grid-column: span 4;
+  grid-row: 1;
+}
+div.alert-danger#liveAlertPlaceholder {
+  justify-self: center;
+  width: auto;
+  align-self: center;
+  margin: 0;
+}
+div.column-1 {
+  grid-column: span 2;
+  grid-row: 1;
+}
+/* input:invalid:focus {
+	border-color: red;
+} */
+/* input.item-number {
+	width: auto;
+} */
+img.barcode {
+  margin-left: 3.5%;
+}
+svg.barcode {
+  margin-left: 4%;
+}

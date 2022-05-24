@@ -1,0 +1,10 @@
+{% extends 'index.html' %} {% block alert %}
+<div id="liveAlertPlaceholder" class="w-25 p-3">
+  <div>
+    <div class="alert alert-alert-dismissible alert-danger" role="alert">
+      This item has already been added!
+      <button type="button" class="btn-close float-end" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+  </div>
+</div>
+{% endblock %}

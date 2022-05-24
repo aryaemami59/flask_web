@@ -1,0 +1,8 @@
+version: "3.9"
+
+services:
+  flaskweb:
+    container_name: flaskweb_container
+    build: .
+    ports:
+      - 5000:5000
